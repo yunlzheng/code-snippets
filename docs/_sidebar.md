@@ -1,0 +1,8 @@
+- [Home](/)
+- [Techniques](./contents/techniques/README.md)
+- [Languages](./contents/languages/README.md)
+  - [Java](./contents/languages/java.md)
+  - [JavaScript](./contents/languages/java.md)
+- [Frameworks](./contents/frameworks/README.md)
+- [Tools](./contents/tools/README.md)
+- [Platforms](./contents/platforms/README.md)
