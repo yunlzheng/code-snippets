@@ -35,6 +35,10 @@
     - [Jenkins](./contents/tools/jenkins.md)
     - [Sonarqube](./contents/tools/sonarqube.md)
     - [Linqubase](./contents/tools/linqubase.md)
+  - Monitor
+    - [Prometheus](./contents/tools/prometheus.md)
+  - Logging
+    - [FLK](./contents/tools/flk.md)
   - Test
     - [Robot framework](./contents/tools/robotframework.md)
     - [Cucumber](./contents/tools/cucumber.md)
