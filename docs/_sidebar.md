@@ -25,6 +25,7 @@
   - Development
     - [IDEA](./contents/tools/idea.md)
     - [Maven](./contents/tools/maven.md)
+    - [Gradle](./contents/tools/gradle.md)
     - [Webpack](./contents/tools/webpack.md)
   - Virtual
     - [Docker](./contents/tools/docker.md)
@@ -33,6 +34,7 @@
     - [Ansible](./contents/tools/ansible.md)
     - [Jenkins](./contents/tools/jenkins.md)
     - [Sonarqube](./contents/tools/sonarqube.md)
+    - [Linqubase](./contents/tools/linqubase.md)
   - Test
     - [Robot framework](./contents/tools/robotframework.md)
     - [Cucumber](./contents/tools/cucumber.md)
