@@ -35,7 +35,7 @@
   - [Docker](./contents/tools/docker.md)
   - [Vagrant](./contents/tools/vagrant.md)
   - [Ansible](./contents/tools/ansible.md)
-  - [Git](./contents/tooks/git.md)
+  - [Git](./contents/tools/git.md)
   - [Gitlab](./contents/tooks/gitlab.md)
   - [Jenkins](./contents/tools/jenkins.md)
   - [Sonarqube](./contents/tools/sonarqube.md)
