@@ -8,8 +8,8 @@
   - [AcceptanceTest-driven development](./contents/techniques/atdd.md)
   - [Behavior-driven development](./contents/techniques/bdd.md)
 - [Languages](./contents/languages/README.md)
-  - [Java](./contents/languages/java.md)
-    - Language
+  - Java
+    - [Language](./contents/languages/java.md)
     - Tools
       - [IDEA](./contents/tools/idea.md)
       - [Maven](./contents/tools/maven.md)
