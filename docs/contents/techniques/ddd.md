@@ -124,3 +124,8 @@ Bounded Context之间的模型转换需要一种公共语言。
 * 模式：Abstract Core
 
   把模型中最基本的概念识别出来，并分离到不同的类，抽象类，接口中。 设计这个抽象模型使之能够表达出重要组件之间的大部分交互。把这个完整的抽象模型放到它自己的Module中而专用，详细的实现类则留在由子域定义的Module中。
+
+  ## 图书
+
+  * [领域驱动设计:软件核心复杂性应对之道 ](https://www.amazon.cn/dp/B01GZ6T12K/ref=sr_1_1?ie=UTF8&qid=1528256689&sr=8-1&keywords=%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1)
+  * [实现领域驱动设计](https://www.amazon.cn/dp/B00IYTVWA6/ref=sr_1_2?ie=UTF8&qid=1528256689&sr=8-2&keywords=%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1)
