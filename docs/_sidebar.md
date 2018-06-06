@@ -2,50 +2,50 @@
 - [Techniques](./contents/techniques/README.md)
   - [Agile](./contents/techniques/agile.md)
   - [DevOps](./contents/techniques/devops.md)
-  - [MicroService](./contents/techniques/microservice.md)
   - [Domain-driven design](./contents/techniques/ddd.md)
+  - [MicroService](./contents/techniques/microservice.md)
   - [Test-driven development](./contents/techniques/tdd.md)
   - [AcceptanceTest-driven development](./contents/techniques/atdd.md)
   - [Behavior-driven development](./contents/techniques/bdd.md)
 - [Languages](./contents/languages/README.md)
   - [Java](./contents/languages/java.md)
+    - Language
+    - Tools
+      - [IDEA](./contents/tools/idea.md)
+      - [Maven](./contents/tools/maven.md)
+      - [Gradle](./contents/tools/gradle.md)
+    - Framework
+      - [Spring Boot](./contents/frameworks/spring-boot.md)
+      - [Spring Cloud](./contents/frameworks/spring-cloud.md)
   - [JavaScript](./contents/languages/javascript.md)
+    - Language
+    - Tools
+      - [Webpack](./contents/tools/webpack.md)
+    - Framework
+      - [Vuejs](./contents/frameworks/vuejs.md)
+      - [Ionic](./contents/frameworks/Ionic.md)
   - [Golang](./contents/languages/golang.md)
+    - Language
+    - Tools
+    - Framework
+      - [Gin-gonic](./contents/frameworks/gin-gonic.md)
   - [Python](./contents/languages/python.md)
 - [Frameworks](./contents/frameworks/README.md)
-  - Java
-    - [Spring Boot](./contents/frameworks/spring-boot.md)
-    - [Spring Cloud](./contents/frameworks/spring-cloud.md)
-  - Golang
-    - [Gin-gonic](./contents/frameworks/gin-gonic.md)
-  - Frontend
-    - [Vuejs](./contents/frameworks/vuejs.md)
-    - [Ionic](./contents/frameworks/Ionic.md)
 - [Tools](./contents/tools/README.md)
-  - Development
-    - [IDEA](./contents/tools/idea.md)
-    - [Maven](./contents/tools/maven.md)
-    - [Gradle](./contents/tools/gradle.md)
-    - [Webpack](./contents/tools/webpack.md)
-  - Virtual
-    - [Docker](./contents/tools/docker.md)
-    - [Vagrant](./contents/tools/vagrant.md)
-  - CI/CD
-    - [Ansible](./contents/tools/ansible.md)
-    - [Jenkins](./contents/tools/jenkins.md)
-    - [Sonarqube](./contents/tools/sonarqube.md)
-    - [Linqubase](./contents/tools/linqubase.md)
-  - Monitor
-    - [Prometheus](./contents/tools/prometheus.md)
-  - Logging
-    - [FLK](./contents/tools/flk.md)
-  - Test
-    - [Robot framework](./contents/tools/robotframework.md)
-    - [Cucumber](./contents/tools/cucumber.md)
-  - Package
-    - [Helm](./contents/tools/helm.md)
-  - Microservice
-    - [Kong API Gateway](./contents/tools/kong-api-gateway.md)
+  - [Docker](./contents/tools/docker.md)
+  - [Vagrant](./contents/tools/vagrant.md)
+  - [Ansible](./contents/tools/ansible.md)
+  - [Git](./contents/tooks/git.md)
+  - [Gitlab](./contents/tooks/gitlab.md)
+  - [Jenkins](./contents/tools/jenkins.md)
+  - [Sonarqube](./contents/tools/sonarqube.md)
+  - [Linqubase](./contents/tools/linqubase.md)
+  - [Prometheus](./contents/tools/prometheus.md)
+  - [FLK](./contents/tools/flk.md)
+  - [Robot framework](./contents/tools/robotframework.md)
+  - [Cucumber](./contents/tools/cucumber.md)
+  - [Helm](./contents/tools/helm.md)
+  - [Kong API Gateway](./contents/tools/kong-api-gateway.md)
 - [Platforms](./contents/platforms/README.md)
   - [Wechat](./contents/platforms/wechat.md)
   - [Rancher](./contents/platforms/rancher.md)

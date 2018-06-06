@@ -1,5 +1,2 @@
-# Java Code Snippets
+# Java
 
-## Lamda
-
-## Cocurrent
