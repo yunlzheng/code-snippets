@@ -3,4 +3,4 @@
 > About Techniques,Languages,Frameworks,Tools And platform
 
 [GitHub](https://github.com/yunlzheng/)
-[Get Started](#code-snippets)
+[Get Started](#tech-radar-code-snippets)
