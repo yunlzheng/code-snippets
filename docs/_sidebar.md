@@ -1,14 +1,18 @@
 - [Home](/)
 - [Techniques](contents/techniques/README.md)
-  - [Agile](contents/techniques/agile.md)
-  - [DevOps](contents/techniques/devops.md)
-  - [Domain-driven design](contents/techniques/ddd.md)
-  - [MicroService](contents/techniques/microservice.md)
-  Testing
+  - Management
+    - [Agile](contents/techniques/agile.md)
+    - [DevOps](contents/techniques/devops.md)
+  - Architecture
+    - [Domain-driven design](contents/techniques/ddd.md)
+    - [MicroService](contents/techniques/microservice.md)
+  - Testing
     - [Test-driven development](contents/techniques/tdd.md)
     - [AcceptanceTest-driven development](contents/techniques/atdd.md)
     - [Behavior-driven development](contents/techniques/bdd.md)
     - [Consumer-driven contracts](contents/consumer-driven-contracts.md)
+  - Programming
+    - [Object-oriented programming](contents/oop.md)
 - [Languages](contents/languages/README.md)
   - Java
     - [Language](contents/languages/java.md)
