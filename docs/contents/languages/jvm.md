@@ -26,11 +26,11 @@
     * 异常规范，当方法区无法满足内存分配需求时，将抛出OutOfMemoryError异常。
     * -XX:MaxPermSize=16m 设定方法区容量
 
-## 其它
+#### 其它
 
 * 直接内存(Direct Memory)：Dump出堆存储快照，分析是内存泄露(Memory Leak)还是内存溢出(Memory Overflow)
 
-## 故障分析
+### 故障分析
 
 * Java堆溢出:java.lang.OutOfMemoryError + Java heap space
     * Dump出堆存储快照，分析是内存泄露(Memory Leak)还是内存溢出(Memory Overflow)
@@ -47,7 +47,7 @@
     * DirectMemory容量可以通过-XX:MaxDirectMemorySize指定，如果不指定默认与Java堆最大值(Xmx)相同
         * Heap Dump文件中没有明显异常，Dump文件很小，程序中又直接或者间接使用了NIO，那就可以考虑检查是否是这方面的原因
 
-## 垃圾收集器与内存分配策略(GC)
+## 垃圾收集器(GC)
 
 ### 对象是否失效
 
@@ -63,7 +63,7 @@
 * 弱引用(Weak Reference)：用来描述非必须对象。只能存在于下次垃圾回收发生之前
 * 虚引用(Phantom Reference)：一个对象是否有虚引用存在，完全不会印象其对生存时间构成印象，也无法从虚引用来取得一个对象实例。为一个对象设置虚应用关联的唯一目的是能够在这个对象被垃圾回收时收到一个系统通知
 
-## 虚拟机性能监控与故障处理工具
+## 监控与故障处理工具
 
 命令行工具
 
