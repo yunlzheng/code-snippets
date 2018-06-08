@@ -48,6 +48,7 @@
   - [Linqubase](contents/tools/linqubase.md)
   - [Prometheus](contents/tools/prometheus.md)
   - [FLK](contents/tools/flk.md)
+  - [Istio](contents/tools/istio.md)
   - [Robot framework](contents/tools/robotframework.md)
   - [Cucumber](contents/tools/cucumber.md)
   - [Helm](contents/tools/helm.md)
