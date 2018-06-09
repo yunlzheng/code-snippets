@@ -35,3 +35,15 @@ git gc --aggressive --prune=now
 * Github Flow
 * Gitlab Flow
 * GitFlow
+
+## Rebase Vs Merge
+
+![](../../_images/git-flow.png)
+
+Merge
+
+![](../../_images/git-merge-2.png)
+
+Rebase
+
+![](../../_images/git-rebase.png)
