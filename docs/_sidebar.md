@@ -1,5 +1,5 @@
 - [Home](/)
-- [Techniques](contents/techniques/README.md)
+- Techniques
   - Management
     - [Agile](contents/techniques/agile.md)
     - [DevOps](contents/techniques/devops.md)
@@ -14,7 +14,7 @@
     - [Consumer-driven contracts](contents/consumer-driven-contracts.md)
   - Programming
     - [Object-oriented programming](contents/oop.md)
-- [Languages](contents/languages/README.md)
+- Languages
   - Java
     - [Language](contents/languages/java.md)
     - Runtime
@@ -40,13 +40,13 @@
       - [Gin-gonic](contents/frameworks/gin-gonic.md)
   - [Python](contents/languages/python.md)
   - [Shell Script](contents/languages/shell.md)
-- [Frameworks](contents/frameworks/README.md)
-- [Tools](contents/tools/README.md)
+- Frameworks
+- Tools
   - [Ansible](contents/tools/ansible.md)
   - [Chrome](contents/tools/chrome.md)
   - [Cucumber](contents/tools/cucumber.md)
   - [Docker](contents/tools/docker.md)
-  - [FLK](contents/tools/flk.md)
+  - [Fluentd](contents/tools/fluentd.md)
   - [Git](contents/tools/git.md)
   - [Gitlab](contents/tooks/gitlab.md)
   - [Helm](contents/tools/helm.md)
@@ -58,9 +58,16 @@
   - [Robot framework](contents/tools/robotframework.md)
   - [Sonarqube](contents/tools/sonarqube.md)
   - [Vagrant](contents/tools/vagrant.md)
-- [Platforms](contents/platforms/README.md)
+- Platforms
   - [Wechat](contents/platforms/wechat.md)
   - [Rancher](contents/platforms/rancher.md)
-  - [Kubernetes](contents/platforms/kubernetes.md)
+  - Kubernetes
+    - [Commands](contents/platforms/kubernetes/commands.md)
+    - [Install](contents/platforms/kubernetes/install.md)
+    - [Adminstrator](contents/platforms/kubernetes/adminstrator.md)
+    - [Static Pod](contents/platforms/kubernetes/static-pod.md)
+    - [Stateless Application](contents/platforms/kubernetes/stateless-application.md)
+    - [Ingress](contents/platforms/kubernetes/ingress.md)
+    - [Network Policy](contents/platforms/kubernetes/network-policy.md)
   - [OpenStack](contents/platforms/openstack.md)
   - [AWS](contents/platforms/aws.md)
