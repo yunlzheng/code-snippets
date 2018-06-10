@@ -10,3 +10,4 @@ Force delete a pod on a dead node
 
 ```
 kubectl delete pod foo --grace-period=0 --force
+```
