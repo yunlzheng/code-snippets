@@ -7,6 +7,7 @@
     - [Domain-driven design](contents/techniques/ddd.md)
     - [MicroService](contents/techniques/microservice.md)
   - Testing
+    - [Test strategy](contents/techniques/test-strategy.md)
     - [Test-driven development](contents/techniques/tdd.md)
     - [AcceptanceTest-driven development](contents/techniques/atdd.md)
     - [Behavior-driven development](contents/techniques/bdd.md)
