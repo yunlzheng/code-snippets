@@ -38,6 +38,7 @@
     - Framework
       - [Gin-gonic](contents/frameworks/gin-gonic.md)
   - [Python](contents/languages/python.md)
+  - [Shell Script](contents/languages/shell.md)
 - [Frameworks](contents/frameworks/README.md)
 - [Tools](contents/tools/README.md)
   - [Docker](contents/tools/docker.md)
