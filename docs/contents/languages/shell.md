@@ -67,6 +67,47 @@ unalias lm
 
 ## 数据流从定向
 
+```
+ ┌───────────┐            ┌───────────┐         ┌───────────┐
+ |   file    | --stdin -> | Command   |-stdout->|  device   |
+ └───────────┘            └───────────┘         └───────────┘
+                                |
+                              stderr
+                                |
+                           ┌───────────┐
+                           |  device   |
+                           └───────────┘
+```
+
+* 标准输入(stdin):代码为0，使用<或者<<;
+* 标准输出（stdout）:代码为1，使用>或者>>;
+* 标准错误输出（stderr）:代码为2，使用 2> 或者 2>>;
+
+> ```>```表示覆盖数据，```>>```表示累加数据
+
+示例：
+
+```shell
+# 分别将标准输出，和标准错误输出到文件中
+find /home -name .bashrc > list_right 2> list_error
+# 将标准错误输错到/dev/null
+find /home -name .bashrc 2> /dev/null 
+# 将标准输入输出写到同一个文件中
+find /home -name .bashrc &> list 
+```
+
+标准输入：
+
+```shell
+# 将.bashrc写入到catfile
+cat > catfile < ~/.bashrc
+
+# 使用EOF将内容写入文件
+cat > catfile << eof
+> this is test
+eof
+```
+
 ## 管道命令
 
 ### 选取命令：cut.grep
