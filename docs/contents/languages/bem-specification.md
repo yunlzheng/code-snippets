@@ -15,3 +15,9 @@ BEM代表块（Block），元素（Element），修饰符（Modifier）
 ## 修饰符（Modifier）
 
 修饰符作为一个块或是一个元素的一种属性，代表这个块或这个元素在外观或是行为上的改变著作权归作者所有。
+
+## 命名规范
+
+```
+block-name__element-name--modifier-name
+```
