@@ -42,6 +42,7 @@
 - [Frameworks](contents/frameworks/README.md)
 - [Tools](contents/tools/README.md)
   - [Docker](contents/tools/docker.md)
+  - [Chrome](contents/tools/chrome.md)
   - [Vagrant](contents/tools/vagrant.md)
   - [Ansible](contents/tools/ansible.md)
   - [Git](contents/tools/git.md)
