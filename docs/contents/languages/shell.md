@@ -108,7 +108,36 @@ cat > catfile << eof
 eof
 ```
 
+### 命令执行判断依据
+
+* cmd;cmd 不考虑命令相关性连续执行命令
+* cmd1 && cmd2: 在cmd1执行成功的情况下执行cmd2
+* cmd1 || cmd2: 在cmd1执行失败的情况下执行cmd2
+
+示例：
+
+```
+ls /tmp/abc || mkdir /tmp/abc && touch /tmp/abc/hehe
+```
+
 ## 管道命令
+
+``` 
+          stodou  | stdin        stdout |     stdin
+ ┌───────────┐    |     ┌───────────┐   |      ┌───────────┐
+ |   cmd1    |    |     |    cmd2   |   |      |    cmd3   |
+ └───────────┘    |     └───────────┘   |      └───────────┘
+                  |                     |
+```
+
+示例:
+
+```
+ls -al /etc | less
+```
+
+* 管道只能处理stdout,stderr会忽略；
+* 管道命令必须能够接受来自前一个命令的数据成为stdin继续处理；
 
 ### 选取命令：cut.grep
 
