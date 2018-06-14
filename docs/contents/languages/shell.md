@@ -139,10 +139,81 @@ ls -al /etc | less
 * 管道只能处理stdout,stderr会忽略；
 * 管道命令必须能够接受来自前一个命令的数据成为stdin继续处理；
 
-### 选取命令：cut.grep
+### cut分解数据或者文字
 
-### 排序命令：sort,wc,uniq
+根据-d的分割字符将信息切割成为数段，并取出-f指定的段
 
-### 字符转换命令：tr,col,join,paste,expand
+```shell
+echo $PATH | cut -d ':' -f 1,2,3,5
+```
 
-### 参数代换：xargs
+指定输出第12-15的字符
+
+```shell
+export | cut -c 12-15
+
+
+```
+
+### grep匹配
+
+```shell
+# 当一行中出现root就取出
+last | grep 'root'
+
+# 当一行中没有root就取出 
+last | grep -v 'root'
+
+# 使用特殊颜色显示关键字
+last | grep --color=auto 'root'
+
+# 使用正则表达式匹配
+last | grep [a-zA-Z]
+```
+
+### sort排序
+
+```shell
+# 以文字类型顺序排序
+cat /etc/passwd | sort
+
+# 通过-t指定内容按照“：”进行分为列，并以第3列为基准文字类型排序
+cat /etc/passwd | sort -t ':' -k 3
+
+# 通过-t指定内容按照“：”进行分为列，并以第3列为基准排序，并以数字类型排序
+cat /etc/passwd | sort -t ':' -k 3 -n
+```
+
+### uniq去重
+
+```shell
+# 获取所有登录信息 | 获取最后登录名 | 并按照文字顺序排序 | 去除所有重复项，-c自定显示统计计数
+last | cut -d ' ' -f 1 | sort | uniq -c
+```
+
+### wc计算文件内容
+
+```shell
+# 统计文件中的行数（-l）字数(-w)以及字符数（-m）
+cat /etc/man.conf  | wc -l -w -m
+```
+
+### tee双向重定向
+
+```shell
+# 将last的输出写入到last.list文件的同时，也将输出作为cut的输入
+last | tee last.list | cut -d " " -f 1
+
+# 将last的输出追加到last.list文件的同时，也将输出作为cut的输入
+last | tee -a last.list | cut -d " " -f 1
+```
+
+### tr删除或者替换文本
+
+```shell
+# 将所有的小写字母变为大写字母
+last | tr '[a-z]' '[A-Z]'
+
+# 删除输出中所有的“：”
+cat /etc/passwd | tr -d ':'
+```
