@@ -19,6 +19,7 @@
     - [Values](contents/promrager-values.md)
     - [Smart Questions](contents/smart-questions.md)
     - [OWASP_Top_10](contents/owasp_top_10.md)
+    - [Code Review](contents/code_review_guide.md)
 - Languages
   - Java
     - [Language](contents/languages/java.md)
