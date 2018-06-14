@@ -62,6 +62,23 @@
 |Scrum board 在每个迭代后重设|看板反映持久开发情况|
 |规定优先化的 product backlog|优先级是非必须的|
 
+## 技术实践
+
+### 极限编程
+
+* 规划策略(The Planning Game)；
+* 结对编程(Pair programming)
+* 测试(Testing)
+* 重构(Refactoring)
+* 简单设计(Simple Design)
+* 代码集体所有权(Collective Code Ownership)
+* 持续集成(Continuous Integration)
+* 现场客户(On-site Customer)
+* 小型发布（Small Release）
+* 每周40小时工作制（40-hour Week）
+* 编码规范（Code Standards）
+* 系统隐喻（System Metaphor）
+
 ## 需求管理
 
 ### 用户故事（User Story）
