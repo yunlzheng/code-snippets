@@ -39,3 +39,21 @@ mysql:
 ```
 docker-compose run --rm build sh -c 'mvn clean package' && docker-compose stop && docker-compose rm -f
 ```
+
+## VPN
+
+```
+docker run --name ipsec-vpn-server --env-file ./vpn.env --restart=always -p 500:500/udp -p 4500:4500/udp -v /lib/modules:/lib/modules:ro -d --privileged hwdsl2/ipsec-vpn-server
+```
+
+```
+VPN_IPSEC_PSK=ipsec_pre_shared_key
+VPN_USER=yunlzheng
+VPN_PASSWORD=qwerasdf1
+```
+
+## SS
+
+```
+docker run -d -p 1984:1984 oddrationale/docker-shadowsocks  -s 0.0.0.0 -p 1984 -k qwer1234 -m aes-256-cfb
+```
