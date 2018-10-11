@@ -47,3 +47,7 @@ Merge
 Rebase
 
 ![](../../_images/git-rebase.png)
+
+## 其它
+
+* Git大文件管理： [git-lsf](https://git-lfs.github.com/)
